@@ -3,7 +3,7 @@ layout: post
 title:  "Android NDK交叉编译环境的搭建"
 date:   2016-04-06
 excerpt: "关于NDK网上有很多介绍，不再赘述。这里只是单纯的讲一下，作为一个菜鸟，构建一个NDK交叉编译环境，并跑一个C/C++版的helloworld需要做哪些工作。"
-project: true
+project: 
 tag:
 comments: true
 ---
