@@ -2,10 +2,9 @@
 layout: post
 title:  "TCP/IP基础知识准备"
 date:   2017-08-10
-excerpt: "整理网络知识的一些要点，面试备用。"
+excerpt: "个人整理网络知识的一些要点，面试备用。"
 tag:
-- post
-- ndk
+- tcp/ip
 comments: true
 ---
 
