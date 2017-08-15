@@ -5,6 +5,7 @@ date:   2017-06-24
 excerpt: "关于NDK网上有很多介绍，不再赘述。在这里只是单纯的讲一下，作为一个菜鸟，构建一个NDK交叉编译环境，并跑一个C/C++版的helloworld需要做哪些工作。"
 tag:
 - post
+- ndk
 comments: true
 ---
 关于NDK网上有很多介绍，不再赘述。
