@@ -1,11 +1,10 @@
-
 ---
 layout: post
-title:  "Android NDK交叉编译环境的搭建"
-date:   2017-07-24
-excerpt: "关于NDK网上有很多介绍，不再赘述。这里只是单纯的讲一下，作为一个菜鸟，构建一个NDK交叉编译环境，并跑一个C/C++版的helloworld需要做哪些工作。" 
+title:  "【转】Android NDK交叉编译环境的搭建"
+date:   2017-06-24
+excerpt: "关于NDK网上有很多介绍，不再赘述。在这里只是单纯的讲一下，作为一个菜鸟，构建一个NDK交叉编译环境，并跑一个C/C++版的helloworld需要做哪些工作。"
 tag:
--post
+- post
 comments: true
 ---
 关于NDK网上有很多介绍，不再赘述。
@@ -82,3 +81,5 @@ arm-linux-androideabi-gcc hello.c -o hello
 error: only position independent executables (PIE) are supported
 
 这个时候只需要在原来的编译后加-pie -fPIE重新编译一下，生成的hello就可以使用了
+
+其实所谓交叉编译环境就是在某种环境中配置另一种环境的编译器。如果不嫌麻烦，在Linux系统中可以删除gcc和g++命令到编译器的链接，改将其链接到下载的arm-linux-androideabi-gcc编译器上，这样即使在Linux系统中运行gcc命令就可以编译出对应系统的可执行代码，但该代码将不能在Linux系统中运行。
