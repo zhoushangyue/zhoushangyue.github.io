@@ -4,7 +4,7 @@ bio:                '一个平凡的美男子'
 #description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/1412.jpg'
 background:         'assets/img/laopo.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
