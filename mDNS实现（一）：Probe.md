@@ -1,17 +1,7 @@
----
-layout: post
-title:  "mDNS实现（一）：Probe.md"
-date:   2017-08-01
-excerpt: "mDNS的实现第一步，就是probe和annouce，而设备端最主要的功能就是周期性地实现probe。probe较annouce更为复杂，容易出错，本文将RFC文档中一些要点记录下来，对DNS完全没有了解的人阅读起来可能会比较懵。。。"
-tag:
-- mDNS
-comments: true
----
-
 ### Probe
 这一步骤称为冲突检测：设备的mDNS在接入网络或接入服务之前一般要先进行Probe过程，向网络中的其它主机发送询问，验证所要发送的资源记录名字（本机名或者服务名）在网络中是否已经存在。其流程如下：
 
-![image](../assets/img/probeflowchart.png)
+![image](assets/img/logo.png)
 
 首先，probe将向对应的组播地址和端口发送三个相同的UDP查询数据包，查询所要发送的资源名称在网络中是否有重名。
 
