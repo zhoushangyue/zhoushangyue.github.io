@@ -11,7 +11,7 @@ comments: true
 ### Probe
 这一步骤称为冲突检测：设备的mDNS在接入网络或接入服务之前一般要先进行Probe过程，向网络中的其它主机发送询问，验证所要发送的资源记录名字（本机名或者服务名）在网络中是否已经存在。其流程如下：
 
-![image](assets/img/logo.png)
+![image](assets/img/probeflowchart.png)
 
 首先，probe将向对应的组播地址和端口发送三个相同的UDP查询数据包，查询所要发送的资源名称在网络中是否有重名。
 
